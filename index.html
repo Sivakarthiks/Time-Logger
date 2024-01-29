@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timer-table</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <input type="text" placeholder="Task" id="task" class="txt-box">
+        <input type="text" placeholder="Description" id="desc" class="txt-box">
+        <div class="counter">
+            <span>
+                <p id="hr">00</p>
+                <p>:</p>
+                <p id="min">00</p>
+                <p>:</p>
+                <p id="count">00</p>
+            </span>
+        </div>
+        <button id='toggle' class="button">Start</button>
+    <br><br>
+
+    <table border="1" id="mytable">
+        <tr>
+            <th>Task</th>
+            <th>Description</th>
+            <th>Duration</th>
+        </tr>
+    </table>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
